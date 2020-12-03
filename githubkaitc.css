@@ -51,7 +51,7 @@ body {
 }
 
 a {
-    color: #0366d6;
+    color: #1e78df;
     text-decoration: none;
 }
 /*-------------------------------------------------------*/
@@ -144,16 +144,16 @@ h6 {
     color: #6A737D;
 }
 /*-------------------------------------------------------*/
-p,
+/* p,
 blockquote,
 ul,
 ol,
 dl,
 table{
     margin: 0.8em 0;
-}
+} */
 /*-------------*/
-li+li {
+li {
     line-height: 1.5;
     margin-top: .25em;
 }
@@ -162,6 +162,7 @@ li>ol,
 li>ul {
     margin: 0 0;
 }
+/*___DONE___________________________________*/
 hr {
     height: .25em;
     padding: 0;
@@ -171,7 +172,7 @@ hr {
     /* overflow: hidden;
     box-sizing: content-box; */
 }
-
+/*------------------------------------------*/
 li p.first {
     display: inline-block;
 }
