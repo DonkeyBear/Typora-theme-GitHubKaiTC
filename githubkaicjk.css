@@ -370,7 +370,7 @@ code {
 }
 
 header, .context-menu, .megamenu-content, footer{
-    font-family: "Segoe UI", "Arial", sans-serif;
+    font-family: "Noto Sans CJK TC", "Noto Sans CJK", "Noto Sans", "Arial", sans-serif;
 }
 
 .file-node-content:hover .file-node-icon,
