@@ -6,12 +6,12 @@
 @font-face {
     font-family: 'Noto Sans TC';
     font-weight: 400;
-    src: local('Noto Sans TC Regular'), local('NOTOSANSTC-REGULAR'), url('./githubkaitc/NotoSansTC-Regular.otf') format('opentype');
+    src: url('./githubkaitc/NotoSansTC-Light.otf') format('opentype');
   }
 @font-face {
     font-family: 'Noto Sans TC';
     font-weight: 500;
-    src: local('Noto Sans TC Medium'), local('NOTOSANSTC-MEDIUM'), url('./githubkaitc/NotoSansTC-Medium.otf') format('opentype'); 
+    src: url('./githubkaitc/NotoSansTC-Medium.otf') format('opentype'); 
   }
 
 html {
@@ -242,25 +242,19 @@ table tr td:last-child {
 .md-fences,
 code,
 tt {
-    border: 1px solid #e7eaed;
-    background-color: #f8f8f8;
-    border-radius: 3px;
+    background-color: #F6F8FA;
+    border-radius: 6px;
     padding: 0;
-    padding: 2px 4px 0px 4px;
+    padding: 16px;
     font-size: 0.9em;
 }
 
-code {
-    background-color: #f3f4f4;
-    padding: 0 2px 0 2px;
-}
-
-.md-fences {
+/* .md-fences {
     margin-bottom: 15px;
     margin-top: 15px;
     padding-top: 8px;
     padding-bottom: 6px;
-}
+} */
 
 
 .md-task-list-item > input {
@@ -280,9 +274,9 @@ code {
     }
 }
 
-.md-fences {
+/* .md-fences {
 	background-color: #f8f8f8;
-}
+} */
 #write pre.md-meta-block {
 	padding: 1rem;
     font-size: 85%;
