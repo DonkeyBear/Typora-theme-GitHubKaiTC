@@ -43,5 +43,5 @@ if '%1'=='ELEV' (del "%vbsGetPrivileges%" 1>nul 2>nul  &  shift /1)
 
 @echo on
 cd %cd%
-copy /y githubkaicjk.css %appdata%\Typora\themes\
+copy /y githubkaitc.css %appdata%\Typora\themes\
 pause
