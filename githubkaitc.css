@@ -242,13 +242,21 @@ table tr td:last-child {
 }
 
 .md-fences,
-code,
+pre code,
 tt {
     background-color: #F6F8FA;
     border-radius: 6px;
     padding: 0;
     padding: 16px;
     font-size: 0.9em;
+}
+
+code {
+    padding: .2em .4em;
+    margin: 0;
+    font-size: 85%;
+    border-radius: 6px;
+    background-color: #F6F8FA;
 }
 
 /* .md-fences {
