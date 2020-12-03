@@ -203,7 +203,7 @@ table {
     word-break: initial;
 }
 table tr {
-    border-top: 1px solid #F6F8FA;
+    border-top: 1px solid #DFE2E5;
     margin: 0;
     padding: 0;
 }
@@ -213,13 +213,13 @@ thead {
 }
 table tr th {
     font-weight: 500;
-    border: 1px solid #F6F8FA;
+    border: 1px solid #DFE2E5;
     border-bottom: 0;
     margin: 0;
     padding: 6px 13px;
 }
 table tr td {
-    border: 1px solid #F6F8FA;
+    border: 1px solid #DFE2E5;
     margin: 0;
     padding: 6px 13px;
 }
