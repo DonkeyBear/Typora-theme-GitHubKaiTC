@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="githubkaitc.css" type="text/css" />
+</head>
+<html>
+    <body>
+        <h1 id="-net-5-0-with-furion-">.NET 5.0 with Furion 測試專案</h1>
+        <blockquote>
+            <ul>
+                <li><a href="#研究重點">研究重點</a></li>
+                <li><a href="#專案模擬情境">專案模擬情境</a></li>
+                <li><a href="#目標排序">目標排序</a></li>
+                <li>
+                    <a href="#常用頁面">常用頁面</a>
+                    <ul>
+                        <li><a href="#官方主頁">官方主頁</a></li>
+                        <li><a href="#說明文檔">說明文檔</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </blockquote>
+        <h2 id="-">研究重點</h2>
+        <ul>
+            <li>[x] ~DynamicApiController 動態WebAPI~</li>
+            <li>
+                [x] ~FriendlyExeption 友好異常~
+                <ul>
+                    <li>已成功顯示友好異常，尚未做進一步測試。</li>
+                </ul>
+            </li>
+            <li>
+                <p>[x] ~DatabaseAccessor 數據庫操作~</p>
+                <ul>
+                    <li>
+                        已成功連接到資料庫，並可對其進行操作。目前僅限 SQL
+                        Server。
+                    </li>
+                </ul>
+            </li>
+            <li>[ ] SpecificationDocument 規範化文檔</li>
+            <li>[x] ~DataValidation 數據驗證~</li>
+            <li>[x] ~Logging 日誌管理~</li>
+            <li>
+                [ ] 其他應用研究目標（非主要）
+                <ul>
+                    <li>[ ] 搭配 Docker 使用</li>
+                    <li>[ ] 與區塊鏈的結合</li>
+                </ul>
+            </li>
+        </ul>
+        <p><a href="#net-50-with-furion-測試專案">返回目錄</a></p>
+        <h2 id="-">專案模擬情境</h2>
+        <p>
+            銷售端與產品線的數據對接，雙方各有獨立的 <code>資料庫操作</code>，以
+            <code>動態 WebAPI</code> 向對方請求數據並調用。於其中適當設置
+            <code>友好異常</code>（異常結果使用
+            <code>日誌管理</code>），傳輸過程視情況可加入加密
+            <code>數據驗證</code>，並以 <code>規範化文檔</code> 編寫之。
+        </p>
+        <p><a href="#net-50-with-furion-測試專案">返回目錄</a></p>
+        <h2 id="-">目標排序</h2>
+        <ol>
+            <li>資料庫建置</li>
+            <li>Furion 框架對資料庫的調用</li>
+            <li>待定……</li>
+        </ol>
+        <p><a href="#net-50-with-furion-測試專案">返回目錄</a></p>
+        <h2 id="-">常用頁面</h2>
+        <h3 id="-">官方主頁</h3>
+        <ul>
+            <li>
+                Furion | Gitee：<a href="https://gitee.com/monksoul/Furion"
+                    >https://gitee.com/monksoul/Furion</a
+                >
+            </li>
+            <li>
+                Furion 官方文檔：<a href="https://furion.pro/"
+                    >https://furion.pro/</a
+                >
+            </li>
+            <li>
+                Hoa 官方文檔：<a href="https://monksoul.gitbook.io/hoa/"
+                    >https://monksoul.gitbook.io/hoa/</a
+                >
+            </li>
+        </ul>
+        <h3 id="-">說明文檔</h3>
+        <ul>
+            <li>
+                <a href="https://furion.pro/docs/friendly-exception"
+                    >7. 友好异常处理 | Furion (furion.pro)</a
+                >
+            </li>
+            <li>
+                <a href="https://furion.pro/docs/dbcontext-multi-database"
+                    >9.18 多数据库操作 | Furion (furion.pro)</a
+                >
+            </li>
+            <li>
+                <a href="https://furion.pro/docs/dbcontext-audit"
+                    >9.22 审计日志 | Furion (furion.pro)</a
+                >
+            </li>
+            <li>
+                <a href="https://monksoul.gitbook.io/hoa/rijiguanli"
+                    >十四、日志管理 - Hoa Framework (gitbook.io)</a
+                >
+            </li>
+        </ul>
+        <h3 id="-">其他</h3>
+        <ul>
+            <li>
+                <a
+                    href="https://space.bilibili.com/695987967?spm_id_from=333.788.b_765f7570696e666f.2"
+                    >dotNET中国的个人空间 - 哔哩哔哩 Bilibili</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://www.finereport.com/tw/data-analysis/sql-3.html#SQLSQL"
+                    >零基礎快速自學SQL，1天足矣—附最全SQL學習資源和練習題！
+                    (finereport.com)</a
+                >
+            </li>
+        </ul>
+        <p><a href="#net-50-with-furion-測試專案">返回目錄</a></p>
+    </body>
+</html>
